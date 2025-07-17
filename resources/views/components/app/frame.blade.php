@@ -8,7 +8,7 @@
         </x-slot:searchField>
         <x-slot:userMenu>
             <div class="p-2">
-                <span class="font-bold">Daniel Piers</span>
+                <span class="font-bold">{{ __('Daniel Piers') }}</span>
                 <span class="text-neutral-500">email@company.com</span>
             </div>
             <x-dashui-action-link as="link" href="#0" label="Manage account"/>
@@ -80,7 +80,7 @@
         <main class="relative min-h-screen grow sidebar-loaded:show">
             <!-- start main content -->
             <div class="p-5 lg:p-8">
-                <p class="text-lg">Main content.</p>
+                <p class="text-lg">{{ __('Main content.') }}</p>
             </div>
             <!-- end main content -->
         </main>
