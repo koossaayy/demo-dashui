@@ -1,5 +1,5 @@
 <div class="mb-10">
-    <h1 class="mb-4 text-xl font-medium">Default</h1>
+    <h1 class="mb-4 text-xl font-medium">{{ __('Default') }}</h1>
     <div class="flex bg-gray-200/60 p-4 min-h-[500px] lg:p-10">
         <div class="relative max-w-[15rem] min-h-full w-full">
             <div class="sidebar__panel">
@@ -34,7 +34,7 @@
 </div>
 
 <div class="mb-10">
-    <h1 class="mb-4 text-xl font-medium">With secondary navigations</h1>
+    <h1 class="mb-4 text-xl font-medium">{{ __('With secondary navigations') }}</h1>
     <div class="flex bg-gray-200/60 p-4 min-h-[500px] lg:p-10">
         <div class="relative max-w-[15rem] min-h-full w-full">
             <div class="sidebar__panel">
@@ -69,7 +69,7 @@
 </div>
 
 <div class="mb-10">
-    <h1 class="mb-4 text-xl font-medium">With active root</h1>
+    <h1 class="mb-4 text-xl font-medium">{{ __('With active root') }}</h1>
     <div class="flex bg-gray-200/60 p-4 min-h-[500px] lg:p-10">
         <div class="relative max-w-[15rem] min-h-full w-full">
             <div class="sidebar__panel">
@@ -104,7 +104,7 @@
 </div>
 
 <div class="mb-10">
-    <h1 class="mb-4 text-xl font-medium">With secondary navigation section</h1>
+    <h1 class="mb-4 text-xl font-medium">{{ __('With secondary navigation section') }}</h1>
     <div class="flex bg-gray-200/60 p-4 min-h-[500px] lg:p-10">
         <div class="relative max-w-[15rem] min-h-full w-full">
             <div class="sidebar__panel">
