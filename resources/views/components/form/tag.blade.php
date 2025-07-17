@@ -1,9 +1,9 @@
 <div class="mb-10">
-    <h1 class="mb-4 text-xl font-medium">Tag</h1>
+    <h1 class="mb-4 text-xl font-medium">{{ __('Tag') }}</h1>
     <div class="bg-gray-200/60 p-4 lg:p-10">
         <x-dashui-card>
             <x-slot:heading>
-                Removable tags
+                {{ __('Removable tags') }}
             </x-slot:heading>
             <div class="flex items-center gap-2">
                 <x-dashui-tag name="Rustic" url="#0"/>
