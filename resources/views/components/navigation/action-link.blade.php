@@ -1,9 +1,9 @@
 <div class="mb-10">
-    <h1 class="mb-4 text-xl font-medium">Action link</h1>
+    <h1 class="mb-4 text-xl font-medium">{{ __('Action link') }}</h1>
     <div class="bg-gray-200/60 p-4 lg:p-10 lg:pb-36">
         <div class="mt-5">
             <x-dashui-button type="button" aria-controls="popover-nav-1">
-                In a popover
+                {{ __('In a popover') }}
                 <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>
             <x-dashui-popover id="popover-nav-1" role="dialog">
@@ -12,7 +12,7 @@
             </x-dashui-popover>
 
             <x-dashui-button type="button" aria-controls="popover-nav-2">
-                With an icon
+                {{ __('With an icon') }}
                 <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>
             <x-dashui-popover id="popover-nav-2" role="dialog">
@@ -29,7 +29,7 @@
             </x-dashui-popover>
 
             <x-dashui-button type="button" aria-controls="popover-nav-3">
-                With an icon and a suffix
+                {{ __('With an icon and a suffix') }}
                 <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>
             <x-dashui-popover id="popover-nav-3" role="dialog">
@@ -49,7 +49,7 @@
             </x-dashui-popover>
 
             <x-dashui-button type="button" aria-controls="popover-nav-4">
-                With a destructive item
+                {{ __('With a destructive item') }}
                 <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>
             <x-dashui-popover id="popover-nav-4" role="dialog">
@@ -71,7 +71,7 @@
             </x-dashui-popover>
 
             <x-dashui-button type="button" aria-controls="popover-nav-5">
-                With a help text
+                {{ __('With a help text') }}
                 <x-gmdi-expand-more class="w-5 h-5"/>
             </x-dashui-button>
             <x-dashui-popover id="popover-nav-5" role="dialog">
